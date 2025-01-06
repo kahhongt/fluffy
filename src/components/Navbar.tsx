@@ -28,7 +28,7 @@ function Navbar() {
                             className='text-secondary dark:text-dark-secondary hover:text-accent dark:hover:text-dark-accent px-3 py-2 text-sm font-medium'
                         >
                             Solaris
-                        </Link>
+                        </Link>                        
                         <Link
                             to='https://charis.diametriclabs.com'
                             className='text-secondary dark:text-dark-secondary hover:text-accent dark:hover:text-dark-accent px-3 py-2 text-sm font-medium'
