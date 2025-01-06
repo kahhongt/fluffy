@@ -3,16 +3,12 @@ import { FiSun, FiMoon } from 'react-icons/fi';
 
 function ModeToggle() {
     const [isDark, setIsDark] = useState(() => {
-        if (
-            localStorage.theme === 'dark' ||
-            (!localStorage.theme &&
-                window.matchMedia('(prefers-color-scheme: dark)').matches)
-        ) {
-            document.documentElement.classList.add('dark');
-            return true;
+        if (localStorage.theme === 'light') {
+            document.documentElement.classList.remove('dark');
+            return false;
         }
-        document.documentElement.classList.remove('dark');
-        return false;
+        document.documentElement.classList.add('dark');
+        return true;
     });
 
     const toggleMode = () => {
