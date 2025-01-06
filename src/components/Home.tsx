@@ -29,7 +29,7 @@ function Home() {
                             <BiLogoTelegram className="text-xl" /> Solaris on Telegram
                         </button>
                     </a>
-                    <a href='https://t.me/diametricbot' target='_blank'>
+                    <a href='https://charis.diametriclabs.com' target='_blank'>
                         <button className='bg-accent text-primary dark:bg-dark-primary dark:text-dark-background rounded-lg px-6 py-3 flex items-center gap-3 text-lg'>
                             <GiFlowerEmblem className="text-xl" /> Charis on Web Browser
                         </button>
