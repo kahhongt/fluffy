@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <div className='flex flex-col items-center justify-center gap-5 py-10'>
-            <p className='text-sm text-muted-foreground'>&copy; 2024</p>
+            <p className='text-sm text-muted-foreground'>&copy; 2025</p>
             <div className='relative w-[150px] aspect-[5/1]'>
                 <img
                     src='/images/diametric-dark.png'
