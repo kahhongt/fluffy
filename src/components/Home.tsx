@@ -1,5 +1,5 @@
-import { BiLogoTelegram } from 'react-icons/bi';
-import { GiFlowerEmblem } from 'react-icons/gi';
+// import { BiLogoTelegram } from 'react-icons/bi';
+// import { GiFlowerEmblem } from 'react-icons/gi';
 import About from './About';
 import Contact from './Contact';
 
