@@ -61,7 +61,7 @@ function Home() {
             <section className='min-h-screen flex flex-col items-center justify-center bg-background dark:bg-dark-background gap-4 px-8'>
                 {/* Image container */}
                 <div
-                    className={`relative h-52 w-auto flex items-center justify-center transition-all duration-800 ease-out ${
+                    className={`relative h-52 w-auto flex items-center justify-center transition-all duration-1000 ease-out ${
                         imagesLoaded
                             ? 'opacity-100 scale-100'
                             : 'opacity-0 scale-95'
@@ -85,14 +85,14 @@ function Home() {
                     <img
                         src={currentImage}
                         alt='Diametric Labs'
-                        className='h-60 w-auto object-contain transition-all duration-800 ease-out'
+                        className='h-60 w-auto object-contain transition-all duration-1000 ease-out'
                         loading='eager'
                     />
                 </div>
 
                 {/* Text container */}
                 <div
-                    className='flex items-center flex-col gap-8 transition-all duration-800 ease-out'
+                    className='flex items-center flex-col gap-8 transition-all duration-1000 ease-out'
                     style={{
                         transform: imagesLoaded
                             ? 'translateY(0)'
